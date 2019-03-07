@@ -54,3 +54,4 @@ rsconnect/
 *.ini
 *.accdb
 old/
+.Rproj.user

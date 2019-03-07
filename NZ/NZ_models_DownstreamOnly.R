@@ -4,7 +4,7 @@ rm(list=ls())
 ## Directories
 ################
 
-nz_dir <- "C:\\merrill\\stream_networks\\NZ"
+nz_dir <- "~/NZ_stream_networks/stream_networks/NZ"
 
 fig_dir <- file.path(nz_dir, "figures")
 dir.create(fig_dir, showWarnings=FALSE)
@@ -269,6 +269,7 @@ Dens_xt <- plot_maps(plot_set=c(3), TmbData=Data, Report=Report, Spatial_List=Sp
 Index = StreamUtils::plot_biomass_index( TmbData=Data, Sdreport=Opt$SD, Year_Set=Year_Set, Years2Include=Years2Include, use_biascorr=FALSE, strata_names = "Longfin eels" )
 
 Range <- FishStatsUtils::plot_range_index(Sdreport=Opt$SD, Report=Report, TmbData=Data, Year_Set=Year_Set, PlotDir=paste0(getwd(),"/"))
+
 
 ########################
 ## SPATIAL + TEMPORAL LOGNORMAL DELTA LINK
