@@ -6,7 +6,7 @@ rm(list=ls())
 
 nz_dir <- "~/NZ_stream_networks/stream_networks/NZ"
 
-fig_len_dir <- file.path(nz_len_dir, "figures")
+fig_len_dir <- file.path(nz_dir, "figures")
 dir.create(fig_len_dir, showWarnings=FALSE)
 
 #################
